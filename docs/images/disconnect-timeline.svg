@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="960" height="380" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="960" height="380" rx="16" fill="#0F172A"/>
+<text x="70" y="38" fill="#F8FAFC" font-size="20" font-weight="700">What Meet/Zoom actually receive during a fake disconnect</text>
+<text x="70" y="58" fill="#94A3B8" font-size="13">New frames per second, measured from the OBS Virtual Camera. Delivery stays at a steady 30 fps the whole time.</text>
+<rect x="70.0" y="70" width="103.2" height="240" fill="#16A34A" opacity="0.12"/>
+<text x="121.6" y="348" fill="#16A34A" font-size="12" font-weight="700" text-anchor="middle">Normal</text>
+<rect x="173.2" y="70" width="481.6" height="240" fill="#EA580C" opacity="0.12"/>
+<text x="414.0" y="348" fill="#EA580C" font-size="12" font-weight="700" text-anchor="middle">Fake disconnect (12 s ramp)</text>
+<rect x="654.8" y="70" width="137.6" height="240" fill="#2563EB" opacity="0.12"/>
+<text x="723.6" y="348" fill="#2563EB" font-size="12" font-weight="700" text-anchor="middle">Frozen</text>
+<rect x="792.4" y="70" width="103.2" height="240" fill="#7C3AED" opacity="0.12"/>
+<text x="844.0" y="348" fill="#7C3AED" font-size="12" font-weight="700" text-anchor="middle">Reconnect</text>
+<rect x="895.6" y="70" width="68.8" height="240" fill="#16A34A" opacity="0.12"/>
+<text x="930.0" y="348" fill="#16A34A" font-size="12" font-weight="700" text-anchor="middle">Normal</text>
+<line x1="70" x2="930" y1="310.0" y2="310.0" stroke="#334155" stroke-dasharray="3 4"/>
+<text x="58" y="314.0" fill="#94A3B8" font-size="12" text-anchor="end">0</text>
+<line x1="70" x2="930" y1="230.0" y2="230.0" stroke="#334155" stroke-dasharray="3 4"/>
+<text x="58" y="234.0" fill="#94A3B8" font-size="12" text-anchor="end">10</text>
+<line x1="70" x2="930" y1="150.0" y2="150.0" stroke="#334155" stroke-dasharray="3 4"/>
+<text x="58" y="154.0" fill="#94A3B8" font-size="12" text-anchor="end">20</text>
+<line x1="70" x2="930" y1="70.0" y2="70.0" stroke="#334155" stroke-dasharray="3 4"/>
+<text x="58" y="74.0" fill="#94A3B8" font-size="12" text-anchor="end">30</text>
+<text x="70.0" y="328" fill="#64748B" font-size="11" text-anchor="middle">0s</text>
+<text x="242.0" y="328" fill="#64748B" font-size="11" text-anchor="middle">5s</text>
+<text x="414.0" y="328" fill="#64748B" font-size="11" text-anchor="middle">10s</text>
+<text x="586.0" y="328" fill="#64748B" font-size="11" text-anchor="middle">15s</text>
+<text x="758.0" y="328" fill="#64748B" font-size="11" text-anchor="middle">20s</text>
+<text x="930.0" y="328" fill="#64748B" font-size="11" text-anchor="middle">25s</text>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38BDF8" stop-opacity="0.45"/><stop offset="1" stop-color="#38BDF8" stop-opacity="0"/></linearGradient></defs>
+<polygon points="70.0,310.0 70.0,70.0 104.4,70.0 138.8,78.0 173.2,134.0 207.6,134.0 242.0,182.0 276.4,206.0 310.8,174.0 345.2,254.0 379.6,222.0 414.0,254.0 448.4,214.0 482.8,246.0 517.2,246.0 551.6,246.0 586.0,286.0 620.4,302.0 654.8,310.0 689.2,310.0 723.6,310.0 758.0,310.0 792.4,310.0 826.8,270.0 861.2,254.0 895.6,70.0 930.0,70.0 930.0,310.0" fill="url(#g)"/>
+<polyline points="70.0,70.0 104.4,70.0 138.8,78.0 173.2,134.0 207.6,134.0 242.0,182.0 276.4,206.0 310.8,174.0 345.2,254.0 379.6,222.0 414.0,254.0 448.4,214.0 482.8,246.0 517.2,246.0 551.6,246.0 586.0,286.0 620.4,302.0 654.8,310.0 689.2,310.0 723.6,310.0 758.0,310.0 792.4,310.0 826.8,270.0 861.2,254.0 895.6,70.0 930.0,70.0" fill="none" stroke="#38BDF8" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="70.0" cy="70.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="104.4" cy="70.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="138.8" cy="78.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="173.2" cy="134.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="207.6" cy="134.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="242.0" cy="182.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="276.4" cy="206.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="310.8" cy="174.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="345.2" cy="254.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="379.6" cy="222.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="414.0" cy="254.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="448.4" cy="214.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="482.8" cy="246.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="517.2" cy="246.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="551.6" cy="246.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="586.0" cy="286.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="620.4" cy="302.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="654.8" cy="310.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="689.2" cy="310.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="723.6" cy="310.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="758.0" cy="310.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="792.4" cy="310.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="826.8" cy="270.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="861.2" cy="254.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="895.6" cy="70.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+<circle cx="930.0" cy="70.0" r="3.5" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+</svg>

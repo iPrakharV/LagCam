@@ -1,0 +1,25 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build universal app
+        run: UNIVERSAL=1 ./scripts/build-app.sh
+
+      - name: Upload LagCam.zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: LagCam
+          path: dist/LagCam.zip
